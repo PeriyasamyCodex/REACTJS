@@ -1,0 +1,37 @@
+// const redux = require('redux');
+
+// const storeReducer = (state, actions) => {
+
+//     if (actions.type === 'INCREMENT') {
+//         return {
+//             counter: state.counter +1
+//         }
+        
+//     }
+
+//     if (actions.type === 'INCREMENT') {
+//         return {
+//             counter: state.counter - 1
+//         }
+        
+//     }
+
+//     return state;
+
+// }
+
+// const store = redux.createStore(storeReducer);
+
+// const counterSubscriber = () => {
+// const state = store.getState();
+// console.log(state)
+// }
+// store.subscribe(counterSubscriber);
+
+// store.dispatch({
+//     type: 'INCREMENT'
+// });
+
+// store.dispatch({
+//     type: 'DECREMENT'
+// });
